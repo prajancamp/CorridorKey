@@ -70,6 +70,8 @@ python_version = "3.11"
 strict = false
 warn_return_any = true
 warn_unused_configs = true
+# Also want to catch missing imports while exploring third-party integrations
+warn_unused_ignores = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
